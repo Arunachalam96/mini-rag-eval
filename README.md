@@ -198,6 +198,8 @@ and the eval harness above already exists to measure whether it helps.
 strategy. An LLM classifier, or a router trained on the eval set itself, has a defined target
 to beat: 0.60 recall from the current router, against a 0.90 ceiling.
 
+**Multi-document corpus.** Extending to 4–5 papers tests whether the findings above survive a larger, more heterogeneous corpus, and introduces cross-paper retrieval — where a question may be answerable from more than one source, and provenance starts to matter.
+
 ## Limitations
 
 - Ten questions, one paper, single annotator, no inter-annotator agreement.
