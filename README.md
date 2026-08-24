@@ -118,9 +118,9 @@ rewriting needs a fixed seed or temperature 0 before the numbers mean anything.
 flowchart LR
     Q[Question] --> R[Router]
     R --> RET[Retriever]
-    RET --> REA{Reasoner:<br/>sufficient?}
-    REA -- no, search for X --> RET
-    REA -- yes --> A[Answer]
+    RET --> REA{"Reasoner: sufficient?"}
+    REA -- "no, search again" --> RET
+    REA -- "yes" --> A[Answer]
 ```
 
 On a two-part question — *"What datasets were used to evaluate PARS and what were the final
