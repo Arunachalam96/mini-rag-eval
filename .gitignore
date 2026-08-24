@@ -1,0 +1,24 @@
+# Corpus (fetched, not committed)
+data/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+rag-mini/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model caches
+.cache/
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

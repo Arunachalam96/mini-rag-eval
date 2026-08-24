@@ -1,0 +1,11 @@
+# Core RAG pipeline
+numpy>=1.24
+pypdf>=4.0
+sentence-transformers>=2.5
+ollama>=0.1.7
+
+# Agent layer
+langgraph>=0.0.40
+
+# Notebook
+jupyterlab>=4.0
